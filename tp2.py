@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def get_coeficientes_x(t0, t1, n, t):
     
     ck = (2 * t1 / t0) * np.sinc((2 * np.pi * n * t1) / t0) * np.e ** ((1j * n * 2 * np.pi * t) / t0)
-	return ck
+    return ck
 def get_fourier(t0, t1, nro_armonicos, eje_t):
 	eje_xt = []
 	for t in eje_t:
